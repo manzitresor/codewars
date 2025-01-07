@@ -1,4 +1,4 @@
-function processText(text:string) {
+function smallWordHelper(text:string) {
     const vowels = "aeiouAEIOU";
     const words = text.split(' ');
     const processedWords: string[] = [];
@@ -22,5 +22,5 @@ function processText(text:string) {
 
 // Example usage
 const inputText = "The quick brown fox jumps over the lazy dog";
-const outputText = processText(inputText);
+const outputText = smallWordHelper(inputText);
 console.log(outputText);
