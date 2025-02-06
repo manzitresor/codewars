@@ -1,4 +1,4 @@
-function balance(arr1: string[], arr2: string[]){
+function balanceArray(arr1: string[], arr2: string[]){
     const getCounts = (array:string[]) => {
          return array.reduce((counts, item): Record<string, number> => {
              counts[item] = (counts[item] || 0) + 1;
